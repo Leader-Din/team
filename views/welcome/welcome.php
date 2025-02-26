@@ -5,7 +5,7 @@ if (session_status() == PHP_SESSION_NONE) {
 if (isset($_SESSION['user_id'])) :
  ?>
 <div class="container">
-    <h1 style= "color: white;"> Welcome team</h1>
+    <h1>Welcome to PHP</h1>
 </div>
 <?php 
 else: 
